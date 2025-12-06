@@ -167,7 +167,7 @@ def plot_contrib_15(contrib):
     plt.bar([LANE_KR[l] for l in LANES], contrib)
     plt.title("15분 라인별 기여도")
     plt.grid(alpha=0.3)
-    save_fig(fig, "15min_contribution.png")
+    save_fig(fig, "images/15min_contribution.png")
 
 
 def plot_future_contrib(pred, real):
@@ -179,7 +179,7 @@ def plot_future_contrib(pred, real):
     plt.title("21~25분 라인별 기여도 (예측 vs 실제)")
     plt.legend()
     plt.grid(alpha=0.3)
-    save_fig(fig, "future_contribution.png")
+    save_fig(fig, "images/future_contribution.png")
 
 
 def plot_line_contrib(contrib15, pred, real):
@@ -197,7 +197,7 @@ def plot_line_contrib(contrib15, pred, real):
     plt.grid(alpha=0.3)
     plt.legend()
 
-    save_fig(fig, "line_contribution.png")
+    save_fig(fig, "images/line_contribution.png")
 
 
 def plot_line_gold(pred_real, real_vals):
@@ -213,7 +213,7 @@ def plot_line_gold(pred_real, real_vals):
     plt.grid(alpha=0.3)
     plt.legend()
 
-    save_fig(fig, "line_gold_diff.png")
+    save_fig(fig, "images/line_gold_diff.png")
 
 
 def plot_bar(pred_real, real):
@@ -228,7 +228,7 @@ def plot_bar(pred_real, real):
     plt.legend()
     plt.grid(alpha=0.3)
 
-    save_fig(fig, "bar_pred_vs_real.png")
+    save_fig(fig, "images/bar_pred_vs_real.png")
 
 
 def plot_scatter(pred_real, real):
@@ -243,7 +243,7 @@ def plot_scatter(pred_real, real):
     plt.ylabel("예측")
     plt.grid(alpha=0.3)
 
-    save_fig(fig, "scatter_pred_vs_real.png")
+    save_fig(fig, "images/scatter_pred_vs_real.png")
 
 
 def plot_radar(pred_real, real_vals):
@@ -271,7 +271,7 @@ def plot_radar(pred_real, real_vals):
     ax.set_title("골드 격차 Radar Chart")
     ax.legend()
 
-    save_fig(fig, "radar_chart.png")
+    save_fig(fig, "images/radar_chart.png")
 
 
 # -----------------------------------------------------
