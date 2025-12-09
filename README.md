@@ -58,7 +58,7 @@
 - `level`: 챔피언 레벨
 - `minionsKilled`: CS (경제 효율성, 라인전 우위 지표)
 - `totalDamageToChampions`: 챔피언 피해량 (1v1 라인전 강도)
-- `jungleMinionsKilled`: 정글 CS (로밍/로움 정도)
+- `jungleMinionsKilled`: 정글 CS (로밍 도움 정도)
 
 **역할 및 중요성**:
 - **1v1 라인 단독 영역**: 다른 라인과 달리 팀 지원이 최소화되는 구간
